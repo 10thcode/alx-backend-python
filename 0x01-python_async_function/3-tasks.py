@@ -3,10 +3,9 @@
 Defines task_wait_random function
 '''
 import asyncio
-from typing import Any
 
 
-def task_wait_random(max_delay: int) -> Any:
+def task_wait_random(max_delay: int) -> asyncio.Task:
     '''
     Gets asyncio task
 
